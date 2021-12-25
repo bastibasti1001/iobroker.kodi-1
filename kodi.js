@@ -472,6 +472,7 @@ function GetPlayerProperties(){
                 if (res[0].currentvideostream){
                     saveState('info.video_codec', res[0].currentvideostream.codec);
                     saveState('info.video_height', res[0].currentvideostream.height);
+                    saveState('info.video_aspect', res[0].currentvideostream.aspect);
                     saveState('info.video_width', res[0].currentvideostream.width);
                     saveState('info.video_language', res[0].currentvideostream.language);
                     saveState('info.video_stream', res[0].currentvideostream.name);
